@@ -29,4 +29,4 @@ npx zeus-nodejs
 
 ## Demo
 
-![](https://github.com/zeus-nodejs/enexample.gif)
+![](https://github.com/juliocesardemoraes/zeus-nodejs/enexample.gif)
