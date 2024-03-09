@@ -3,14 +3,6 @@
 > [!TIP]
 > Set up your Node.js project in 10 seconds.
 
-## Demo
-
-### How it works? run the video below.
-
-<video width="320" height="240" controls>
-  <source src="en.mp4" type="video/mp4">
-</video>
-
 > [!NOTE]  
 > This script was developed to simplify the Node.js configuration process, making it more efficient and user-friendly. Whether setting up a new project or managing existing configurations, this tool aims to streamline the Node.js setup experience. It adheres to best practices and incorporates the latest features.
 
