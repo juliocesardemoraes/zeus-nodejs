@@ -3,6 +3,10 @@
 > [!TIP]
 > Set up your Node.js project in 10 seconds.
 
+## Demo
+
+![](enexample.gif)
+
 > [!NOTE]  
 > This script was developed to simplify the Node.js configuration process, making it more efficient and user-friendly. Whether setting up a new project or managing existing configurations, this tool aims to streamline the Node.js setup experience. It adheres to best practices and incorporates the latest features.
 
@@ -26,7 +30,3 @@ npx zeus-nodejs
 ## Authors
 
 - [@juliocesardemoraes](https://www.github.com/juliocesardemoraes)
-
-## Demo
-
-![](https://github.com/juliocesardemoraes/zeus-nodejs/enexample.gif)
