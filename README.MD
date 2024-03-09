@@ -1,26 +1,32 @@
-# 🧱 ZEUS COMMANDER - Nodejs Builder 🧱
+# ⚡ ZEUS NODEJS - Node.js Builder ⚡
 
 > [!TIP]
-> Monte seu projeto nodejs em 10 segundos.
+> Set up your Node.js project in 10 seconds.
 
 > [!NOTE]  
-> Este script foi desenvolvido para simplificar o processo de configuração do Node.js, tornando-o mais eficiente e fácil de usar. Seja configurando um novo projeto ou gerenciando configurações existentes, esta ferramenta visa agilizar a experiência de configuração do Node.js. Usando melhores práticas e o que há de mais novo
+> This script was developed to simplify the Node.js configuration process, making it more efficient and user-friendly. Whether setting up a new project or managing existing configurations, this tool aims to streamline the Node.js setup experience. It adheres to best practices and incorporates the latest features.
 
-## Primeiros passos
+## Getting Started
 
-#### Como rodar esse projeto?
+#### How to run this project?
+
+1- Make sure [Node.js](https://nodejs.org/en) is installed. [git](https://git-scm.com/) should also be installed on your machine.
+
+2- Run the following command:
 
 ```
-npx zeus-co
+npx zeus-nodejs
 ```
 
-## Tecnologias
+## Technologies
 
-- [Nodejs](https://nodejs.org/en).
+- [Node.js](https://nodejs.org/en).
 - [Eslint](https://eslint.org/). Code quality
 
-## Autores
+## Authors
 
 - [@juliocesardemoraes](https://www.github.com/juliocesardemoraes)
 
-## Demonstração
+## Demo
+
+![](https://github.com/zeus-nodejs/enexample.gif)
