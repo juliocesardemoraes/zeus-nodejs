@@ -7,9 +7,8 @@
 
 ### How it works? run the video below.
 
-<video width="640" height="480" controls>
-
-  <source src="./en.mp4" type="video/mp4">
+<video width="320" height="240" controls>
+  <source src="en.mp4" type="video/mp4">
 </video>
 
 > [!NOTE]  
