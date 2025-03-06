@@ -1,4 +1,4 @@
-name: Zip ExpressJS Folder
+name: Zip Folders
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
 
       - name: Zip the ExpressJS Folder
         run: |
-          zip -r apijs.zip expressjs
+          zip -r apijs.zip . -i expressjs
 
       - name: Upload Zip as Artifact
         uses: actions/upload-artifact@v4
