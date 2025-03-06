@@ -23,7 +23,7 @@ jobs:
 
       - name: Zip the apijs Folder
         run: |
-          zip -r apijs.zip apijs/*
+          zip -r apijs.zip apijs/.
 
       - name: Commit and Push ZIP File
         run: |
