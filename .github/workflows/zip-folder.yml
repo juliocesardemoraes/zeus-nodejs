@@ -21,6 +21,8 @@ jobs:
 
       - name: Commit and Push ZIP File
         run: |
+          git config --global user.name "juliocesardemoraes"
+          git config --global user.email "jcmcf2012@gmail.com"
           git add apijs.zip
           git commit -m "Auto-update apijs.zip"
           git push origin main
