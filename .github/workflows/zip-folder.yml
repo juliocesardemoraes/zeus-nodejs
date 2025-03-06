@@ -23,7 +23,7 @@ jobs:
 
       - name: Zip the ExpressJS Folder
         run: |
-          zip -r apijs.zip . -i expressJS
+          zip apijs.zip . expressjs
 
       - name: Commit and Push ZIP File
         run: |
