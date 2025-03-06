@@ -1,4 +1,4 @@
-name: Zip Folders
+name: Zip and Commit ExpressJS Folder
 
 on:
   push:
@@ -6,19 +6,23 @@ on:
       - main
 
 jobs:
-  zip-folder:
+  zip-and-commit:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Zip the ExpressJS Folder
         run: |
-          zip -r apijs.zip . -i expressjs
+          zip -r apijs.zip expressjs
 
-      - name: Upload Zip as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: apijs
-          path: apijs.zip
+      - name: Commit and Push ZIP File
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add apijs.zip
+          git commit -m "Auto-update apijs.zip"
+          git push origin main
