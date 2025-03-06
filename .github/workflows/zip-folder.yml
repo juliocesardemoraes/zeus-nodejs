@@ -21,9 +21,9 @@ jobs:
       - name: Remove old ZIP if exists
         run: rm -f apijs.zip
 
-      - name: Zip the apijs Folder
+      - name: Zip the contents of the apijs Folder
         run: |
-          zip -r apijs.zip apijs/.
+          zip -r apijs.zip apijs/*
 
       - name: Commit and Push ZIP File
         run: |
