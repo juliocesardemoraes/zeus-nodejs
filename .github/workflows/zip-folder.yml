@@ -1,0 +1,24 @@
+name: Zip ExpressJS Folder
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-folder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Zip the ExpressJS Folder
+        run: |
+          zip -r apijs.zip expressjs
+
+      - name: Upload Zip as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: apijs
+          path: apijs.zip
