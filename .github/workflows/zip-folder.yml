@@ -18,6 +18,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Remove old ZIP if exists
+        run: rm -f apijs.zip
+
       - name: Zip the ExpressJS Folder
         run: |
           zip -r apijs.zip . -i expressJS
