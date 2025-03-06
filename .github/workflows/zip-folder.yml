@@ -18,7 +18,7 @@ jobs:
           zip -r apijs.zip expressjs
 
       - name: Upload Zip as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: apijs
           path: apijs.zip
