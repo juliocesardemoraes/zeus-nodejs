@@ -1,9 +1,5 @@
-// Add your code here
 import express from "express";
 import cors from "cors";
-
-// If you want to connect to mongo uncomment the two lines below
-// and add the connection string to the .env file
 
 import { connectToMongo } from "./database/connect.js";
 connectToMongo();
@@ -21,6 +17,10 @@ app.use("/", (req, res) => {
   res.status(200).send({ working: true });
 });
 
-app.listen("3000");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});
 
 export default app;
