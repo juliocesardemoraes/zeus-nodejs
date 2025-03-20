@@ -26,3 +26,7 @@ npx zeus-nodejs
 ## Authors
 
 - [@juliocesardemoraes](https://www.github.com/juliocesardemoraes)
+
+### Check Updates(Author)
+
+npx npm-check-updates -u
